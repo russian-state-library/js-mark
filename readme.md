@@ -1,0 +1,4 @@
+# JS Mark
+
+## License
+MIT

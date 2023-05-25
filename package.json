@@ -1,0 +1,39 @@
+{
+  "name": "js-mark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russian-state-library/js-mark"
+  },
+  "keywords": [
+    "mark",
+    "validator",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "russian-state-library",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.14",
+    "nodemon": "^2.0.22",
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "neck-validator": "^1.0.9"
+  },
+  "bugs": {
+    "url": "https://github.com/russian-state-library/issues"
+  },
+  "homepage": "https://github.com/russian-state-library/#readme"
+}
