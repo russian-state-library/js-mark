@@ -1,5 +1,5 @@
 {
-  "name": "js-mark-library",
+  "name": "@russian-state-library/js-mark-rsl",
   "version": "1.0.0",
   "description": "Library for working with MARK records",
   "main": "dist/index.js",
