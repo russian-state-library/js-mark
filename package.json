@@ -1,5 +1,5 @@
 {
-  "name": "js-mark",
+  "name": "js-simple-mark",
   "version": "1.0.0",
   "description": "Library for working with MARK records",
   "main": "dist/index.js",
